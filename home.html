@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Shop</title>
+    <style>
+    #navbar {
+        overflow:hidden;
+        background-color: #333;
+       
+        position: -webkit-sticky;
+        position: sticky;
+    }
+    a:hover{
+        background-color:darkgray;
+    }
+
+
+  #navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  width: 90px;
+  position: -webkit-sticky;
+        position: sticky;
+}
+
+
+
+
+
+
+#slideshow {
+overflow: hidden;
+height: 510px;
+width: 1350px;
+margin: 0 auto;
+}
+
+
+.slide {
+float: left;
+height: 510px;
+width: 1350px;
+}
+
+
+.slide-wrapper {
+
+
+width: calc(1350px * 4);
+
+
+animation: slide 10s ease infinite;
+}
+
+
+
+@keyframes slide {
+
+
+20% {
+	margin-left: 0px;
+}
+
+40% {
+	margin-left: calc(-1350px * 1);
+}
+
+60% {
+	margin-left: calc(-1350px * 2);
+}
+
+100% {
+	margin-left: calc(-1350px * 3);
+}
+}
+* {
+  box-sizing: border-box;
+}
+
+
+.column {
+  float: left;
+  width: 22.11%;
+  padding: 10px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+marquee{
+      font-size: 30px;
+      font-weight: 800;
+      background-color: black;
+      color:whitesmoke;
+      font-family: 'Times New Roman', Times, serif;
+      }
+
+</style>
+</head>
+<body>
+    <div id="navbar">
+        <a href="home.html">Home</a>
+        <a href="profile.html">Profile</a>
+        <a href="cart.html">Cart</a>
+      </div>
+      <div id="slideshow">
+        <div class="slide-wrapper">
+                     
+            <div class="slide">
+                <img src="images12.jpg"width="100%">
+                    
+                
+            </div>
+            <div class="slide">
+                <img src="images5.png" width="100%">
+                    
+                
+            </div>
+            <div class="slide">
+                <img src="images13.jpg" width="100%">
+                    
+                
+            </div>
+            <div class="slide">
+                <img src="images6.jpg" width="100%">
+                    
+                
+            </div>
+        </div>
+    </div> 
+    <marquee>* LATEST MOBILE * </marquee>
+ 
+<div style="padding-left: 5%; margin: 10px;" >
+    <div class="row">
+        <div class="column">
+          <img src="img1.jpg" alt="Mobile" style="width: 100%">
+          <p style="text-align: center;"><b> oppo F17 <br>₹10,000</b></p>
+        </div>
+        <div class="column">
+          <img src="img1.jpg" alt="Mobile" style="width:100%">
+          <p style="text-align: center;"><b> oppo F17 <br>₹10,000</b></p>
+        </div>
+        <div class="column">
+          <img src="img1.jpg" alt="Mobile" style="width:100%">
+          <p style="text-align: center;"><b> oppo F17 <br>₹10,000</b></p>
+        </div>
+        <div class="column">
+            <img src="img1.jpg" alt="Mobile" style="width:100%">
+            <p style="text-align: center;"><b> oppo F17 <br>₹10,000</b></p>
+          </div>    
+      </div>
+      <div class="row">
+        <div class="column">
+          <img src="img1.jpg" alt="Mobile" style="width: 100%">
+          <p style="text-align: center;"><b> oppo F17 <br>₹10,000</b></p>
+          
+        </div>
+        <div class="column">
+          <img src="img1.jpg" alt="Mobile" style="width:100%">
+        
+          <p style="text-align: center;"><b> oppo F17 <br>₹10,000</b></p>
+        </div>
+        <div class="column">
+          <img src="img1.jpg" alt="Mobile" style="width:100%">
+          <p style="text-align: center;"><b> oppo F17 <br>₹10,000</b></p>
+        </div>
+        <div class="column">
+            <img src="img1.jpg" alt="Mobile" style="width:100%">
+            <p style="text-align: center;"><b> oppo F17 <br>₹10,000</b></p>
+          </div>    
+      </div>
+</div>    
+     
+</body>
+</html>
